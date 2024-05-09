@@ -1,0 +1,10 @@
+===Database db1
+
+== Table structure for table messages
+
+|------
+|Column|Type|Null|Default
+|------
+|message|varchar(255)|No|
+|date|varchar(255)|No|
+|------

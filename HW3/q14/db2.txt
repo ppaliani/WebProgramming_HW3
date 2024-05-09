@@ -1,0 +1,46 @@
+===Database db2
+
+== Table structure for table passcode
+
+|------
+|Column|Type|Null|Default
+|------
+|code|int(11)|No|
+|complete|int(1)|No|
+== Dumping data for table passcode
+
+|123|0
+|456|0
+|789|0
+|777|0
+|888|0
+|111|0
+|222|0
+|333|0
+|444|0
+|555|0
+
+== Table structure for table password
+
+|------
+|Column|Type|Null|Default
+|------
+|pwd|varchar(255)|No|
+== Dumping data for table password
+
+|999
+
+== Table structure for table survey
+
+|------
+|Column|Type|Null|Default
+|------
+|//**id**//|int(11)|No|
+|question|varchar(255)|No|
+|yes|int(11)|No|
+|no|int(11)|No|
+== Dumping data for table survey
+
+|1|Do you have experience with HTML?|0|0
+|2|Do you have experience with Rust?|0|0
+|3|Do you have experience with Prolog?|0|0

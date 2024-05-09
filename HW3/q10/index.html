@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Q10</title>
+</head>
+<body>
+    <div>
+        <h1>Compound Interest Calculator</h1>
+        <form method="get" action="update.php" id="container">
+            <div class="input-boxes">
+                <h2>Initial Amount: </h2><input type="text" id="initial" placeholder="Initial Amount" name="initial" autocomplete="off" required>  <!--textboxes-->
+            </div>
+            <div class="input-boxes">
+                <h2>Interest Rate (decimal): </h2><input type="text" id="interest" placeholder="Interest Rate" name="interest" autocomplete="off" required>
+            </div>
+            <div class="input-boxes">
+                <h2>Years to Compound: </h2><input type="text" id="years" placeholder="Number of Years" name="years" autocomplete="off" required>
+            </div>
+            <button type="submit"><h3>Calculate</h3></button>      <!--submit button-->
+            <button type="reset"><h3>Reset</h3></button>
+        </form>   
+    </div>
+</body>
+</html>

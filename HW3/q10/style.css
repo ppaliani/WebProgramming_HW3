@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(48, 48, 133);
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+h3 {
+    margin: 2px;
+}
+
+h2 {
+    color: aliceblue;
+    display: inline;
+    margin: 5px;
+}
+
+input {
+    margin: 5px;
+    padding: 8px;
+    border: solid rgb(151, 125, 237) 4px;
+    border-radius: 8px;
+}
+
+button {
+    margin: 5px;
+    border: solid rgb(151, 125, 237) 3px;
+    border-radius: 4px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(177, 177, 177);
+}
+
+#container {
+    width: 33vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.input-boxes {
+    display: flex;
+    justify-content: space-between;
+}

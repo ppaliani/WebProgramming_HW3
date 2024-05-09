@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Paul Paliani">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+
+    <title>Q12</title>
+
+    <style>
+
+        /* The styling of this webpage will be based on the Harvard Resume Template 
+        https://cdn-careerservices.fas.harvard.edu/wp-content/uploads/sites/161/2023/08/College-resume-and-cover-letter-4.pdf */
+
+        /* Sets background to softer color and easier to read font family */
+        body {
+            background-color: rgb(217, 237, 255);
+            font-family: "Poppins", sans-serif;
+        }
+
+        /* Centers elements to the vertical center of the webpage */
+        .style-center {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* This is to make the section header align with the vertical center of the webpage */
+        .section-header {
+            display: flex;
+            justify-content: center;
+        }
+
+        /* This will separate the affected information to have space in-between each other */
+        .education-header {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .education-header h3 {
+            margin: 0px;
+        }
+
+        .experience-header {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .experience-header h3 {
+            margin: 0px;
+        }
+
+        .leadership-header {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .leadership-header h3 {
+            margin: 0px;
+        }
+
+        /* Eliminates the margin surounding the elements within the section-body classes */
+        .section-body h3, p {
+            margin: 0px;
+        }
+
+        .experience-body h3, h4 {
+            margin: 0px;
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+    <div class="style-center">
+        <h3>Enter Given Password:</h3>
+        <form method="get" action="update.php" class="main-container">
+            <label for="pwd">Password:</label>
+            <input type="text" name="pwd" autocomplete="off">
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    
+  
+
+    
+</body>
+</html>
